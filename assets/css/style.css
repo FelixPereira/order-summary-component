@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: f;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+}
+
+.container{
+    width: 375px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.header-img{
+    max-width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.card{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    color: hsl(223, 47%, 23%);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card-paragraph{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card-plan{
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card_plan-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.plan-name{
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-price{
+    font-size: 15px;
+    line-height: 2;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-btn{
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(245, 75%, 52%);
+    transition: .5s;
+}
+
+.plan-btn:hover{
+    color: hsl(224, 23%, 55%);
+    transition: .5s;
+}
+
+.card_btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.btn-proceed{
+    background-color: hsl(245, 75%, 52%);
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 30px 10px #E2DFFC;
+    transition: .5s;
+}
+
+.btn-proceed:hover{
+    background-color: #766CF1;
+    transition: .5s;
+}
+
+.btn-cancel{
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    transition: .5s;
+}
+
+.btn-cancel:hover{
+    color: hsl(223, 47%, 23%);
+    transition: .5s;
+}
