@@ -10,13 +10,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: f;
     background-color: hsl(225, 100%, 94%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    padding: 6.25rem 0;
 }
 
 .container{
@@ -25,34 +24,34 @@ body{
     background-color: #ffffff;
 }
 
-.header-img{
+.header__img{
     max-width: 100%;
     border-radius: 30px 30px 0 0;
 }
 
 .card{
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card-title{
+.card__title{
     color: hsl(223, 47%, 23%);
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 1.5625rem;
+    margin-bottom: 1.25rem;
 }
 
-.card-paragraph{
+.card__paragraph{
     text-align: center;
     color: hsl(224, 23%, 55%);
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
-.card-plan{
+.card__plan{
     background-color: hsl(225, 100%, 98%);
-    padding: 15px;
+    padding: 0.9375rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,73 +59,73 @@ body{
     border-radius: 10px;
 }
 
-.card_plan-description{
+.card__description{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
 }
 
-.plan-name{
-    font-size: 15px;
+.card__description h4{
+    font-size: 0.9375rem;
     color: hsl(223, 47%, 23%);
 }
 
-.plan-price{
-    font-size: 15px;
+.card__description span{
+    font-size: 0.9375rem;
     line-height: 2;
     color: hsl(224, 23%, 55%);
 }
 
-.plan-btn{
-    font-size: 14px;
+.card__plan a{
+    font-size: 0.875rem;
     font-weight: 600;
     color: hsl(245, 75%, 52%);
     transition: .5s;
 }
 
-.plan-btn:hover{
+.card__plan a:hover{
     color: hsl(224, 23%, 55%);
     transition: .5s;
 }
 
-.card_btns{
+.card__btns{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     width: 100%;
 }
 
-.btn-proceed{
+.card__btn--proceed{
     background-color: hsl(245, 75%, 52%);
     color: #ffffff;
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 0.9375rem 0;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-decoration: none;
     border-radius: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
     box-shadow: 0 10px 30px 10px #E2DFFC;
     transition: .5s;
 }
 
-.btn-proceed:hover{
+.card__btn--proceed:hover{
     background-color: #766CF1;
     transition: .5s;
 }
 
-.btn-cancel{
+.card__btn--cancel{
     text-decoration: none;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
-    font-size: 16px;
+    font-size: 1rem;
     transition: .5s;
 }
 
-.btn-cancel:hover{
+.card__btn--cancel:hover{
     color: hsl(223, 47%, 23%);
     transition: .5s;
 }
